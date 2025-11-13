@@ -1,0 +1,146 @@
+<H1>NAMA  : AHMAD ADNAN NUR HIKMAH</H1>
+<H2>KELAS : 12 RPL </H2>
+<H3>TUGAS : 2</H3>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>My Feedback Form</title>
+     <style>
+         body {
+             font-family: Arial, sans-serif;
+             background-color: #f4f4f4;
+         }
+         h1 {
+             text-align: left;
+             color: #333;
+         }
+         form {
+             background-color: #fff;
+             padding: 20px;
+             border-radius: 5px;
+             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+             width: 500px;
+             margin: 20px auto;
+         }
+         .form-group {
+             margin-bottom: 15px;
+         }
+         label {
+             display: block;
+             margin-bottom: 5px;
+             color: #555;
+         }
+         input[type="text"],
+         input[type="email"],
+         input[type="password"],
+         textarea,
+         select {
+             width: 100%;
+             padding: 8px;
+             border: 1px solid #ccc;
+             border-radius: 4px;
+             box-sizing: border-box;
+             font-size: 14px;
+         }
+         input[type="radio"],
+         input[type="checkbox"] {
+             margin-right: 5px;
+         }
+         textarea {
+             height: 100px;
+         }
+         button {
+             background-color: #ddd;
+             color: #333;
+             padding: 10px 15px;
+             border: 1px solid #ccc;
+             border-radius: 4px;
+             cursor: pointer;
+             font-size: 14px;
+         }
+         button:hover {
+             background-color: #ccc;
+         }
+         .bio-photo-container {
+             display: flex;
+             align-items: center;
+         }
+         .bio-photo-container input[type="file"] {
+             margin-left: 10px;
+         }
+         /* Gaya tambahan untuk membuatnya lebih mirip */
+         select {
+             appearance: none; /* Menghilangkan panah default */
+             background-image: url('data:image/svg+xml;charset=UTF-8,<svg viewBox="0 0 24 24" fill="%23333" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+             background-repeat: no-repeat;
+             background-position: right .7em top 50%;
+             background-size: .65em auto;
+             padding-right: 2.5em;
+         }
+     </style>
+ </head>
+ <body>
+     <form>
+         <h1>My Feedback Form</h1>
+         <div class="form-group">
+             <label for="name">Name:</label>
+             <input type="text" id="name" name="name">
+         </div>
+         <div class="form-group">
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email">
+         </div>
+         <div class="form-group">
+             <label for="password">Password:</label>
+             <input type="password" id="password" name="password">
+         </div>
+         <div class="form-group">
+             <p>Please check all the emotions that apply to you:</p>
+             <label><input type="checkbox" name="emotions" value="angry"> Angry</label><br>
+             <label><input type="checkbox" name="emotions" value="sad"> Sad</label><br>
+             <label><input type="checkbox" name="emotions" value="happy"> Happy</label><br>
+             <label><input type="checkbox" name="emotions" value="ambivalent"> Ambivalent</label>
+         </div>
+         <div class="form-group">
+             <p>How satisfied were you with our service?</p>
+             <label><input type="radio" name="satisfaction" value="very_satisfied"> Very satisfied</label><br>
+             <label><input type="radio" name="satisfaction" value="satisfied"> Satisfied</label><br>
+             <label><input type="radio" name="satisfaction" value="didnt_care"> Didn't care</label><br>
+             <label><input type="radio" name="satisfaction" value="dissatisfied"> Dissatisfied</label><br>
+             <label><input type="radio" name="satisfaction" value="very_dissatisfied"> Very dissatisfied</label>
+         </div>
+         <div class="form-group">
+             <label for="comments">Further comments:</label>
+             <textarea id="comments" name="comments" rows="4"></textarea>
+         </div>
+         <div class="form-group bio-photo-container">
+             <label for="bio_photo">Bio photo:</label>
+             <input type="file" id="bio_photo" name="bio_photo">
+         </div>
+         <div class="form-group">
+             <label for="location">Location visited:</label>
+             <select id="location" name="location">
+                 <option value="">Select location</option>
+                 <option value="jakarta">Jakarta</option>
+                 <option value="surabaya">Surabaya</option>
+                 <option value="medan">Medan</option>
+             </select>
+         </div>
+         <button type="submit">Submit</button>
+     </form>
+ </body>
+ </html>
+</body>
+</html>
